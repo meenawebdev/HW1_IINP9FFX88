@@ -1,0 +1,55 @@
+body{
+    background-color: darkgray;
+}
+#container{
+    padding-left: 40px;
+    font-size: medium;
+    margin-top: 40px
+}
+
+p{
+    font-style: normal;
+    font-stretch: extra-expanded;
+    padding-bottom: 0%;
+}
+
+.del-form {
+    width: 50%;
+    padding-right: 5em;
+}
+
+.del-form  form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.del-form form .size{
+    background-color: whitesmoke;
+    border: 1px solid black;
+    height: 15px;
+    border-radius: 2px;
+    box-shadow: none;
+    color: black;
+    margin-top: 0px;
+    margin-bottom: 16px;
+    padding: 1em;
+}
+
+.del-form form #textarea{
+padding-bottom: 70px;
+}
+
+button{
+    font-size: 1em;
+    line-height: 1.42857143;
+    height: 30px;
+    background-color: green;
+    border: 1px solid green;
+    border-radius: 2px;
+    box-shadow: none;
+    color: #fff;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    transition: box-shadow, background-color .5s ease-in-out;
+}
