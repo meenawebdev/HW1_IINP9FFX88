@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+             body{
+                background-color: white;
+                padding: 50px;
+            }
+            #container{
+                padding-left: 70px;
+                padding-right: 80px;
+                font-size: medium;
+                width:50%;
+                margin-top: 50px;
+                margin-bottom: 100px;
+                background-color:gray;
+                
+            }
+
+            /*p{
+                font-style: normal;
+                font-stretch: extra-expanded;
+                padding-bottom: 0%;
+            }*/
+
+            .del-form {
+                width: 100%;
+                padding-right: 5em;
+                
+            }
+
+            .del-form  form{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+            }
+
+            .del-form form .size{
+                background-color:white;
+                border: 1px solid black;
+                height: 15px;
+                border-radius: 2px;
+                box-shadow: none;
+                color: black;
+                padding: 1em;
+            }
+
+            .del-form form #textarea{
+            padding-bottom: 70px;
+            }
+
+            button{
+                font-size: 1em;
+                line-height: 1.42857143;
+                height: 30px;
+                background-color: green;
+                border: 1px solid green;
+                border-radius: 2px;
+                box-shadow: none;
+                color: #fff;
+                margin-top: 6px;
+                margin-bottom: 16px;
+                
+            }
+    </style>
+    <title>Form</title>
+</head>
+    <body>
+        <div id ="container">
+            <div class="del-form">
+                <form action="">
+                    <p>First Name</p>
+                    <input type="text" name="firstname" placeholder="Your first name..." class="size">
+                    <p>Last Name</p>
+                    <input type="text" name="lasttname" placeholder="Your last name..." class="size">
+                    <p>Country</p>
+                    <select name="Ghana" class="size" multiple="multiple">
+                    <option value="Ghana">Ghana</option>
+                    <option value="Togo">Togo</option>
+                    <option value="Nigeria">Nigeria</option>
+                    </select>
+                    <p> Subject</p>
+                    <textarea type ="text" name="subject" id="textarea" cols="20" rows="10" class="size" placeholder="Write something..."></textarea>
+
+                </form>
+            </div>
+            <button>Submit</button>
+        </div>
+    </body>
+</html>
